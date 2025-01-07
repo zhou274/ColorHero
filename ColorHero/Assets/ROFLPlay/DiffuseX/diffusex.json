@@ -1,0 +1,15 @@
+{
+     "apps": [
+        {
+            "name": "__dx__trex__",
+            "icon_url": "ROFLPlay/Diffusex/Textures/trex_icon.png",
+            "image_url": "ROFLPlay/Diffusex/Textures/trex_600x450.jpg",
+            "market_url": "http://www.roflplay.com"
+        },{
+            "name": "__dx__grimlock__",
+            "icon_url": "ROFLPlay/Diffusex/Textures/grimlock_icon.png",
+            "image_url": "ROFLPlay/Diffusex/Textures/grimlock_600x450.jpg",
+            "market_url": "http://www.roflplay.com"
+        }
+     ]
+}
