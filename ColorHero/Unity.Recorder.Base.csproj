@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{595DEDE1-18B7-F027-FC2D-62A4F9CF0B44}</ProjectGuid>
+    <ProjectGuid>{1CEAD5C0-5782-CE70-F7E4-E888FF1FF3A3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Recorder.Base</AssemblyName>
@@ -416,18 +416,6 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="starksdk_tools">
       <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk.unitytools\Editor\starksdk_tools.dll</HintPath>
       <Private>False</Private>
@@ -438,6 +426,18 @@
     </Reference>
     <Reference Include="ttsdk">
       <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk\ttsdk.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

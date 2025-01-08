@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1D7CF27E-8786-0E7A-03D6-024C922F5F37}</ProjectGuid>
+    <ProjectGuid>{EA8879F3-D9E0-0766-B1C8-A2BBBA0CF7DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TextMeshPro.Editor</AssemblyName>
@@ -471,18 +471,6 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="starksdk_tools">
       <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk.unitytools\Editor\starksdk_tools.dll</HintPath>
       <Private>False</Private>
@@ -493,6 +481,18 @@
     </Reference>
     <Reference Include="ttsdk">
       <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk\ttsdk.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
@@ -1018,15 +1018,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{EE3EB6AE-A29F-632D-89FA-AAEF6A0A636F}</Project>
+      <Project>{226700C7-B6AE-B49D-1ED5-385D2B709D26}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{039C74E1-5F00-3AF6-C3F2-81306FFEB3D7}</Project>
+      <Project>{CC57ABE5-CD45-282C-89E3-3AF6867D7B41}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{9BCE9F59-8238-1BAB-0CD1-BC205AE0EDA9}</Project>
+      <Project>{8D4D4405-7AC0-2023-FFE1-010903C670F4}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

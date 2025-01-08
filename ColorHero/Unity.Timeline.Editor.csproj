@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CE0D2493-9ED7-CD22-75A6-CACE98843EF7}</ProjectGuid>
+    <ProjectGuid>{0348B326-7DD0-2261-159B-970099E856D8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Timeline.Editor</AssemblyName>
@@ -293,8 +293,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Manipulators\TimeAreaAutoPanner.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Signals\TreeView\SignalListFactory.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Playables\ControlPlayableInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Window\TimelineWindow_HeaderGui.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\treeview\Manipulator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Window\TimelineWindow_HeaderGui.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\inspectors\ClipInspector\ClipInspectorSelectionInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\DirectorStyles.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Manipulators\AddDelete\AddDeleteItemModeRipple.cs" />
@@ -695,18 +695,6 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="starksdk_tools">
       <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk.unitytools\Editor\starksdk_tools.dll</HintPath>
       <Private>False</Private>
@@ -717,6 +705,18 @@
     </Reference>
     <Reference Include="ttsdk">
       <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk\ttsdk.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
@@ -1242,15 +1242,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{A7E3D719-1D60-F566-443C-1075CA6E3B5D}</Project>
+      <Project>{D69E142A-932B-9774-DF5A-6AC47A17D35E}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{039C74E1-5F00-3AF6-C3F2-81306FFEB3D7}</Project>
+      <Project>{CC57ABE5-CD45-282C-89E3-3AF6867D7B41}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{9BCE9F59-8238-1BAB-0CD1-BC205AE0EDA9}</Project>
+      <Project>{8D4D4405-7AC0-2023-FFE1-010903C670F4}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

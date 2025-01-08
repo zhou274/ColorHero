@@ -445,7 +445,7 @@ namespace ColorHero
             (bol) => {
                 if (bol)
                 {
-                    stage = startStage;
+                    //stage = startStage;
                     StopAllCoroutines();
                     isGameOver = false;
                     leftTime += 30;

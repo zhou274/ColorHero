@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity\\\u989C\u8272\u82F1\u96C4\\ColorHero\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F27F7D04-E6EA-D023-BF17-98F5699B5C49}|Assembly-CSharp.csproj|d:\\unity\\\u989C\u8272\u82F1\u96C4\\colorhero\\assets\\scripts\\manager\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27F7D04-E6EA-D023-BF17-98F5699B5C49}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StageManager.cs",
+              "DocumentMoniker": "D:\\Unity\\\u989C\u8272\u82F1\u96C4\\ColorHero\\Assets\\Scripts\\Manager\\StageManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\StageManager.cs",
+              "ToolTip": "D:\\Unity\\\u989C\u8272\u82F1\u96C4\\ColorHero\\Assets\\Scripts\\Manager\\StageManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\StageManager.cs",
+              "ViewState": "AgIAALkBAAAAAAAAAAAQwMEBAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T02:16:39.603Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{094DD734-D61A-7EBF-0C06-A882DB87D2B3}</ProjectGuid>
+    <ProjectGuid>{698DF1FB-21E4-2588-D668-4219B25087F7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>TTLitJson</AssemblyName>
@@ -58,16 +58,16 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\Netstandard15Polyfill.cs" />
-    <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\JsonMapper.cs" />
+    <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\JsonData.cs" />
     <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\Lexer.cs" />
+    <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\ParserToken.cs" />
+    <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\JsonReader.cs" />
     <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\JsonWriter.cs" />
     <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\IJsonWrapper.cs" />
-    <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\JsonReader.cs" />
-    <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\JsonException.cs" />
     <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\JsonMockWrapper.cs" />
-    <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\JsonData.cs" />
-    <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\ParserToken.cs" />
+    <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\JsonMapper.cs" />
+    <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\Netstandard15Polyfill.cs" />
+    <Compile Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\JsonException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\ByteGame\com.bytedance.starksdk\LitJson\TTLitJson.asmdef" />
@@ -425,18 +425,6 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="starksdk_tools">
       <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk.unitytools\Editor\starksdk_tools.dll</HintPath>
       <Private>False</Private>
@@ -447,6 +435,18 @@
     </Reference>
     <Reference Include="ttsdk">
       <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk\ttsdk.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
