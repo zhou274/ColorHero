@@ -441,7 +441,7 @@ namespace ColorHero
 
 		public void AddTime()
 		{
-            ShowVideoAd("192if3b93qo6991ed0",
+            ShowVideoAd("2lgn0lki0mhf2311ii",
             (bol) => {
                 if (bol)
                 {
@@ -487,9 +487,8 @@ namespace ColorHero
 				winningPanel.SetActive (true);
 				stageTimeText.text = Mathf.Floor (stageTime) + "";
 				stageScoreText.text = stageScore + "";
-                ShowInterstitialAd("1lcaf5895d5l1293dc",
+                ShowInterstitialAd("6ai0h928ccefbbg0je",
             () => {
-                Debug.LogError("--插屏广告完成--");
 
             },
             (it, str) => {
@@ -509,9 +508,8 @@ namespace ColorHero
 					PlayerPrefs.SetInt (KEY_BEST_SCORE, best);
 				}
 				bestScoreText.text = best + "";
-                ShowInterstitialAd("1lcaf5895d5l1293dc",
+                ShowInterstitialAd("6ai0h928ccefbbg0je",
             () => {
-                Debug.LogError("--插屏广告完成--");
 
             },
             (it, str) => {
