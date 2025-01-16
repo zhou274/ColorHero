@@ -33,11 +33,11 @@ namespace ROFLPlay.Localization
 				Destroy (gameObject);
 			}
 
-			if (IsChinese()) {
+			// if (IsChinese()) {
 				StartCoroutine (LoadLocalizedText (localizationChineseSimplified));
-			} else {
-				StartCoroutine (LoadLocalizedText (localizationOthers));
-			}
+			// } else {
+			// 	StartCoroutine (LoadLocalizedText (localizationOthers));
+			// }
 
 			DontDestroyOnLoad (gameObject);
 		}
